@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="../navigation.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <title>RevTech</title>
+</head>
+
+<body>
+  <!--------- Main HTML --------->
+  <nav>
+    <a href="" id="title">RevTech</a>
+    <ul id="navs-con">
+      <li><a href="" class="navigation">Home</a></li>
+      <li><a href="" class="navigation">Shop</a></li>
+      <li><a href="" class="navigation">Support</a></li>
+      <li><a href="" class="navigation">About</a></li>
+    </ul>
+    <div id="wishCart">
+      <a href="" id="settingsIcon"><i class="fa-solid fa-gear"></i></a>
+      <a href="" id="wishIcon"><i class="fa-solid fa-heart"></i></a>
+      <a href="" id="cartIcon"><i class="fa-solid fa-cart-shopping"></i><sup id="cartCount">2</sup></a>
+    </div>
+  </nav>
+  <!----------------------------->
+  <header>
+    <h1 id="wishlist-title">Wishlist</h1>
+    <img src="Heart.png" alt="" id="heart-img" />
+  </header>
+  <main>
+    <div id="labels">
+      <p>Product</p>
+      <p class="second">Price</p>
+    </div>
+    <div class="product">
+      <img src="headset.png" alt="" />
+      <div class="info">
+        <h5 class="name">AudioElite</h5>
+        <p>
+          Introducing AudioElite, the ultimate headset for audiophiles and
+          music lovers. With its advanced sound technology and crystal-clear
+          audio quality, this...
+        </p>
+        <p style="color: #0fbd92; font-weight: 500">In Stock</p>
+        <div class="qty-color">
+          <div>
+            <label for="count">Qty: </label>
+            <input type="number" value="1" min="1" />
+          </div>
+          <p>Color: <span style="font-weight: 500;">Black</span></p>
+        </div>
+        <div class="options">
+          <a href="#" style="color: black;">Details</a>
+          <span>|</span>
+          <a href="#" style="color: red;">Delete</a>
+          <span>|</span>
+          <a href="#" style="color: blue;">Share</a>
+        </div>
+      </div>
+      <div class="buy">
+        <p>$<span>60</span></p>
+        <button>Add to cart</button>
+      </div>
+    </div>
+    <hr>
+    <div class="subtotal-con">
+      <p>Subtotal <span>(1 item):</span> $<span style="font-weight: bold;">60</span></p>
+      <button>Add All</button>
+    </div>
+  </main>
+</body>
+
+</html>
